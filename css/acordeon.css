@@ -1,0 +1,26 @@
+#acordeonFaq .item{
+	border-top: solid 1px #ccc;
+	cursor: pointer;
+	padding: 0 20px;
+
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#acordeonFaq .item:hover{
+	background-color: #ccc;	
+}
+#acordeonFaq .item .pregunta{
+	padding: 20px 0;	
+}
+#acordeonFaq .item  .respuesta{
+	display: none;
+	padding-bottom: 20px;
+}
+.acordeonActivado, .acordeonActivado:hover{
+	background-color: #a3e0ff !important;
+}
+.acordeonActivado .pregunta{
+	font-weight: bold;
+}

@@ -1,0 +1,8 @@
+#containerSlider{
+	height: 500px;
+	width: 1500px;/* la sumatoria de las pantallas */
+}
+
+#containerSlider img{
+	float: left;	/* para que las imagenes esten flotantes*/
+}
